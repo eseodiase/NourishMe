@@ -1,0 +1,1396 @@
+html{
+    height:100vh;
+}
+
+body {
+    margin:0;
+    height:100vh;
+    width:100vw;
+    padding:0;
+    background:#eee;
+    color: #26292e;
+    font-family: 'Work Sans', sans-serif;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+/* darkmode colors and the classLists used in JS*/
+.darkmode{
+top:13px;
+right:60px;
+position: absolute;
+     width:50px;
+    height:20px;
+    padding: 8px;
+    background:#26292e;
+    border:2px solid #eee;
+    border-radius:30px;
+-webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+box-shadow: 0 15px 30px rgba(0,0,0,0.2);  
+    z-index: 9999;  
+    cursor: pointer;
+}
+
+.dk{
+    background:#eee;
+    border:2px solid #585d67;
+}
+
+.mode_toggle{
+    background:#eee;
+    width:28px;
+    height:28px;
+    border-radius:50px;
+    top:4.3px;
+    right:33px;
+  position:absolute ;
+}
+.mode_toggle .fa{
+    width:28px;
+    height:28px;
+    position:absolute ;
+    top:6px;
+}
+.modeToggleRight{
+    background:#585d67;
+    width:28px;
+    height:28px;
+    border-radius:50px;
+    top:4.3px;
+    right:3.8px;
+    position:absolute   ;
+}
+
+.darkened{
+    background:#26292e;
+    color:#eee;
+}
+
+.menuColor{
+    color:#eee;
+}
+
+/* header + home page styling */
+.header{
+    height:100vh;
+    width:100vw;
+    text-align:center ;
+    z-index: 9999;
+}
+
+.logo{
+    left: 62px;
+    top: 26px;
+    position: fixed;
+    background: transparent;
+    color: #26292e;
+    font-weight: bold;
+}
+
+.logo_bg{ /* part of darkmode */
+    color: #eee;
+}
+
+.menu-bar{
+        display: none;
+}
+
+.menu{
+    top:0;
+    position: fixed;
+    width: 100vw;
+    text-align: right;
+}
+
+#menuTop{
+    display: none;
+}
+
+.menu ul{
+    width: 100vw;
+    padding:0;
+    margin:0;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 26px 12px 18px 12px;
+    cursor: pointer;
+}
+
+.menu ul li i{
+    display: none;
+}
+.setting{
+    margin-right: 140px; /* part of menu ul li */
+}
+
+#dev{
+    display: none;
+}
+
+.homePage{
+    margin:0;
+    text-align:center;
+    width:100vw;
+    margin-top:80px;
+    clear: both;
+}
+
+.topContainer{
+    margin-bottom:20px;
+    width:100vw;
+}
+
+.content1, .content2{
+    display:inline-block;
+    height:50vh;
+} 
+
+.content1{
+    width:30vw;
+    background: transparent;
+}
+
+.subContent1{
+    width:30vw;
+}
+
+.subContent1 h1{
+    font-size:1rem;
+    text-align: left;
+    margin-left: 52px;
+    display: none;
+}
+
+.subContent1 p{
+    text-align: left;
+    margin-left: 52px;
+    display: none;
+}
+
+.homeItems{
+    width: 22vw;
+    height: 15vh;
+    display: block;
+    box-shadow:1.5px 8px 8px 0.1px rgba(0,0,0,0.2);  
+    border-radius: 0px 0px 18px 18px;
+    margin: 10px 10px 10px 52px;
+}
+
+.content2{
+    width:67vw;
+    background: url("https://eseodiase.github.io/NourishMe/images/NourishMe.png") no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    background-clip: content-box;
+}
+
+.content2 .orderNow{
+    width:250px;
+    padding:16px;
+    background:coral;
+    border-radius:30px;
+    font-weight:bold;
+    color: #eee;
+}
+
+.content2 .orderNow:hover{
+    background: orangered;
+}
+
+.subContent2 h1{
+    font-size: 4rem;
+    margin-bottom:0;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.subContent2 p{
+    margin-top: 0;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.boxes{
+    height: 20vh;
+}
+
+.box1{
+    width:30vw;
+}
+
+.box2{
+    width:34vw;
+    text-align: left;
+}
+
+.box3{
+    width:33vw; 
+    text-align: center;
+}
+
+.box1, .box2, .box3{
+    display:inline-block;
+}
+
+.box1 p{
+    text-align: left;
+    margin-left: 55;
+}
+.box3 .fa{
+    padding: 8px 14px 8px 14px;
+}
+.box3 .fa:hover{
+    background: #585d67;
+    border-radius: 50px;
+    color: #eee;
+}
+.fa{
+    cursor: pointer;
+    text-align: center;
+}
+
+/* about page styling */    
+.aboutUsImg{
+    background:grey;
+}
+
+article{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+/* other pages */
+.contactJs, .bookingJs, .subscribeJs, .menuJs, .specifyJs, .aboutJs, .subNav
+     {
+        display: none;
+}
+
+.myCart, .categories, .specify, .aboutUs, .contactUs, .subSc{
+    font-size:20px;
+}
+
+/* booking, specify, subscribe and contact form input styling */
+.bFormInput, .bFormTxtArea, .cFormTxtArea{
+    margin:0;
+    border:none;
+    background:transparent ;
+    text-align:left;
+    width:72vw;
+    padding:20px 0px 0px 0px;
+}
+
+.bFormTxtArea, .cFormTxtArea{
+    margin-left: 30.5px; /*updated*/
+}
+
+.txtA{ /*updated contact form txt area label*/
+    margin-top: 20px;
+    padding-top: -50px;
+    position: absolute;
+}
+
+.contactInput, .bookingInput{
+    text-align:left;
+    margin-top:5px;
+}
+
+.bookingJs, .specifyForm, .contactForm{
+    text-align:center ;
+}
+
+.bookingJs label, .specifyForm label, .contactForm label{
+color:#585d67;
+margin-right:12px;
+} 
+
+#kids{
+    margin-Left:5px;
+}
+
+#contactJs{
+    display:none;
+}
+
+.formHr{
+    margin-top:0;
+    border: 0.2px solid #585d67;
+}
+
+.formH3{ 
+background:#26292e; 
+margin:0px 0px 20px 0px; 
+padding:60px 18px 0px 18px; 
+top:0; border-radius:10px; 
+color:#eee;
+height:100px;
+ -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+box-shadow: 0 15px 30px rgba(0,0,0,0.2);  
+}
+
+.options, .agreement{
+    font-size: 14px;
+    color: #b7b7b7;
+}
+
+/* goto and exit navigations styling */
+.nav1,
+.nav2, .nav3, .nav4, .nav5, .nav6, .nav7, .nav8{
+    display:none;
+}
+
+#topNav, #topNav2, #topNav3, #topNav4, #topNav5, #topNav6, #topNav7, #topNav8{
+    width:100vw;
+    top:0;
+    position:fixed ;
+    z-index:100;
+}
+
+#topNav0, #topNav1, #topNav3, #topNav4, #topNav5, #topNav6, #topNav7, #topNav8{
+    margin:0;
+    padding:0;
+}
+
+.topNav, .topNav2, .topNav3, .topNav4, .topNav5, .topNav6, .topNav7, .topNav8{
+    display:inline-block ;
+    padding-top:14px;
+    padding-bottom:14px;
+    margin-left:60px;
+    margin-right:20px;
+    color:#333;
+}
+
+.back, .back2, .back3, .back4, .back5, .back6, .back7, .back8{
+font-size:12px;
+color:#333;
+text-align:center ;
+    background:#eee;
+    box-shadow: 0px 2px 2px 0px #fff;
+    width:40px;
+    padding:12px;
+    border-radius:50px;
+    margin:0;
+-webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+box-shadow: 0 15px 30px rgba(0,0,0,0.2);  
+}
+
+.back2{
+    width:80px;
+}
+
+/* all, menu and booking navs */
+.subNav ul li{
+ width:55px;   
+ text-align:center;
+ padding:4px;
+  
+}
+
+#notActive:hover, #notActive2:hover{
+   border-bottom:2px solid coral;
+}
+
+#active{
+    border-bottom:2px solid coral;
+    
+}
+
+/* appetizer, barbecue, desserts and etc navs */
+.menuJs{
+    text-align:center;
+}
+.menuList ul{
+    width:100vw;
+    padding:0;
+    margin:0;
+}
+.menuList li{
+    display:inline-block ;
+    padding:12px;
+    margin:6px;
+    width:85px;
+    border-radius:8px;
+-webkit-box-shadow: 0 15px 30px rgba(1,0,0,0.2);
+box-shadow: 0 15px 30px rgba(1,0,0,0.2);  
+    font-size:10px;
+    font-weight:bold;
+    text-align:center;
+}
+.menuList li:hover{
+background:coral;
+color:#eee;
+}
+.menuL{
+background:#26292e;
+color:#eee; 
+}
+
+/* main and general css properties used */
+main{
+    margin-top:80px;
+    position:relative;
+}
+
+a{
+    text-decoration:none;
+    color:#26292e;
+    cursor: pointer;
+}
+
+li{
+    display:block;
+    cursor: pointer;
+}
+
+form{
+    margin:20px 60px 20px 60px;
+    clear:both;
+    z-index:-10;
+}
+
+button{
+    border:none ;
+    padding:14px;
+    cursor: pointer;
+}
+
+checkbox{
+    cursor: pointer;
+}
+
+hr{
+    clear:both;
+    border:0.1px dotted #585d67;
+}
+
+input, textarea{
+    color:#b7b7b7;
+}
+
+::placeholder{
+    color:#b7b7b7;
+}
+:-ms-input-placeholder{
+     color:#b7b7b7;
+}
+
+::-ms-input-placeholder{
+     color:#b7b7b7;
+}
+
+
+/* items details, buttons and ticked buttons */
+.detailsBtn1, .detailsBtn2, .detailsBtn3, .detailsBtn4, .detailsBtn5, .detailsBtn6, .detailsBtn7, .detailsBtn8, .detailsBtn9, .detailsBtn10, .detailsBtn11, .detailsBtn12, .detailsBtn13, .detailsBtn14, .detailsBtn15, .detailsBtn16, .detailsBtn17, .detailsBtn18, .tick1, .tick2, .tick3, .tick4, .tick5, .tick6, .tick7, .tick8, .tick9, .tick10, .tick11, .tick12, .tick13, .tick14, .tick15, .tick16, .tick17, .tick18{
+    float:right;
+    border-radius:50px;
+    width:40px;
+    height:40px;
+    text-align:center ;
+    background:#26292e;
+    color:coral;
+-webkit-box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+box-shadow: 0 5px 25px rgba(0,0,0,0.1);  
+    margin-top:36px;
+}
+
+.tick1, .tick2, .tick3, .tick4, .tick5, .tick6, .tick7, .tick8, .tick9, .tick10, .tick11, .tick12, .tick13, .tick14, .tick15, .tick16, .tick17, .tick18{
+    display:none;
+    border-top:1.5px solid coral;
+    color:#eee;
+}
+
+.details{
+    text-align-last: center;
+}
+
+.details1, .details2,
+.details3, .details4,
+.details5, .details6,
+.details7, .details8,
+.details9, .details10,
+.details11, .details12,
+.details13, .details14,
+.details15, .details16,
+.details17, .details18{
+    text-align:center;
+    display:none;
+  width:92vw;
+  background:#585d67;
+  position:fixed;
+  top:0;
+  bottom:0;
+  margin:0;
+  padding:0;
+  right:4vw;
+  color:;
+  z-index:999;
+  border-radius:15px;
+  box-shadow:0 15px 30px rgba(0,0,0,0.3);
+}
+
+h4{
+    text-align:left;
+    margin-left:18px;
+}
+
+.details1 h3, .details2 h3,
+.details3 h3, .details4 h3,
+.details5 h3, .details6 h3,
+.details7 h3, .details8 h3,
+.details9 h3, .details10 h3,
+.details11 h3, .details12 h3,
+.details13 h3, .details14 h3,
+.details15 h3, .details16 h3,
+.details17 h3, .details18 h3{
+    text-decoration:underline;
+}
+
+.details1 h3, p, .details2 h3, p,
+.details3 h3, p, .details4 h3, p,
+.details5 h3, p, .details6 h3, p,
+.details7 h3, p, .details8 h3, p,
+.details9 h3, p, .details10 h3, p,
+.details11 h3, p, .details12 h3, p,
+.details13 h3, p, .details14 h3, p,
+.details15 h3, p, .details16 h3, p,
+.details17 h3, p, .details18 h3, p{
+    text-align:left ;
+    margin-left:18px;
+}
+
+.x{
+    float:right;
+    color:coral;
+    border-radius:50px;
+    background:transparent;
+    margin-right: 20px;
+    padding:0px 10px 0px 10px;
+    cursor: pointer;
+}
+
+.fullImg{
+    clear:both;
+    width:200px;
+    height:200px;
+    padding:10px;
+    border-radius:50%;
+    background:#eee;
+    text-align:center ;
+    float:left ;
+    margin:0px 0px 18px 18px;
+}
+
+.dP{
+    display:inline-block ;
+    font-size:12px;
+    margin:0px;
+    padding:14px;
+    text-align:center;
+}
+
+.startPrice{
+    font-weight:bold;
+    font-size:20px;
+    color:coral;
+}
+
+.miniTxt{
+    font-size:11px;
+    color:#b7b7b7;
+}
+
+/* "add to cart" and "item added" buttons styling */
+.priceList{
+    clear:both;
+}
+
+.drop_btns, .drop_btn2, .drop_btn3, .drop_btn4, .drop_btn5, .drop_btn6, .drop_btn7, .drop_btn8, .drop_btn9, .drop_btn10, .drop_btn11, .drop_btn12, .drop_btn13, .drop_btn14, .drop_btn15, .drop_btn16, .drop_btn17, .drop_btn18{
+    position:relative ;
+}
+
+.price{
+    position:relative ;
+    display:none ;
+background:#eee;
+color:#585d67;
+border:none ;
+padding:14px;
+font-size:14px;
+}
+
+.price:hover{
+background:#fff;
+color:coral;
+}
+
+.prices{
+    background:#eee;
+    box-shadow:0px 5px 18px 0px #333;
+}
+
+.drop_btns:hover .price, 
+        .drop_btn2:hover .price, 
+        .drop_btn3:hover .price,
+        .drop_btn4:hover .price, 
+        .drop_btn5:hover .price,
+        .drop_btn6:hover .price,
+        .drop_btn7:hover .price,
+        .drop_btn8:hover .price,
+        .drop_btn9:hover .price,
+        .drop_btn10:hover .price, 
+        .drop_btn11:hover .price, 
+        .drop_btn12:hover .price, 
+        .drop_btn13:hover .price, 
+        .drop_btn14:hover .price, 
+        .drop_btn15:hover .price, 
+        .drop_btn16:hover .price, 
+        .drop_btn17:hover .price,
+        .drop_btn18:hover .price{
+        position:relative ;
+        display:block ;
+}
+            
+.price, .prices, .added, .cfpSoupAdded, .addWine, .addOjuice, .vSoupAdded, .ccAdded, .gfAdded, .suyaAdded, .wBallAdded, .addBkebab, .addFsalad, .dfcAdded, .scAdded, .swAdded, .bccAdded, .vIceAdded, .addDE, .addFP_ES{
+                width:180px;
+                text-align:left ;
+                padding-top:14px;
+                padding-bottom:14px;
+}
+              
+.added, .cfpSoupAdded, .addWine, .addOjuice, .vSoupAdded, .ccAdded, .gfAdded, .suyaAdded, .wBallAdded, .addBkebab, .addFsalad, .dfcAdded, .scAdded, .swAdded, .bccAdded, .vIceAdded, .addDE, .addFP_ES{
+                    background:#eee;
+                    border-top:1px solid coral;
+                    border-right:1px solid coral;
+                    border-left:1px solid coral;
+                    font-size:13px;
+                    padding-top:14px;
+                    padding-bottom:14px;
+                    display:none;
+}
+
+.prices, .added, .cfpSoupAdded, .addWine, .addOjuice, .vSoupAdded, .ccAdded, .gfAdded, .suyaAdded, .wBallAdded, .addBkebab, .addFsalad, .dfcAdded, .scAdded, .swAdded, .bccAdded, .vIceAdded, .addDE, .addFP_ES{
+    border-radius:5px 5px 0px 0px;
+    color:#585d67;
+    margin-right: 20px;
+}
+
+.more, .down, .tick{
+    float:right;
+}
+
+.more{
+    color:coral;
+}
+
+.figure, .drop_btns, .drop_btn2, .drop_btn3, .drop_btn4, .drop_btn5, .drop_btn6, .drop_btn7, .drop_btn8, .drop_btn9, .drop_btn10, .drop_btn11, .drop_btn12, .drop_btn13, .drop_btn14, .drop_btn15, .drop_btn16, .drop_btn17, .drop_btn18{
+    display:inline-block ;
+}
+
+.drop_btns, .drop_btn2, .drop_btn3, .drop_btn4, .drop_btn5, .drop_btn6, .drop_btn7, .drop_btn8, .drop_btn9, .drop_btn10, .drop_btn11, .drop_btn12, .drop_btn13, .drop_btn14, .drop_btn15, .drop_btn16, .drop_btn17, .drop_btn18, .added, .cfpSoupAdded, .addWine, .addOjuice, .vSoupAdded, .ccAdded, .gfAdded,.suyaAdded, .wBallAdded, .addBkebab, .addFsalad, .dfcAdded, .scAdded, .swAdded, .bccAdded, .vIceAdded, .addDE, .addFP_ES{
+    float:right ;
+}
+
+/* my cart page styling */
+.notification{
+    color:#b7b7b7;
+    padding-top:45px;
+    text-align: center;
+}
+
+.cal{  
+    padding-left:14px;
+    padding-right:14px;
+}
+
+#cal, #five, #vat, #zero{
+    float:right;
+    padding-left:14px;
+    padding-right:14px;
+    font-size:22px;
+    overflow:block;
+    color:coral;
+    font-weight:bold;
+    width:180px;
+    border:none;
+    background:transparent;
+    text-align:right;
+}
+
+#five, #vat, #zero{
+    color:#b7b7b7;
+}
+
+#vat{
+    font-weight:bold;
+}
+
+.hiddenCal{
+    display: none;
+}
+
+.bDetails, .customer_input, .submit_order{
+    display:none;
+    text-align: center;
+}
+
+/* delivery option dropdown buttons */
+.delv_btns button{
+    width:70vw;
+    padding:14px;
+    border-radius:30px;
+    border:none;
+    background:transparent;
+    border: 0.5px solid #585d67;
+    color:#b7b7b7;
+    text-align:center;
+}
+
+.delv_btns:hover{
+    position:relative ;
+    display:block ;
+}
+
+.opt{
+        display:none;
+        position: relative;
+}
+
+#delv_type:hover .opt{
+        display: block;
+        position:relative;
+        margin:0;
+        color:#b7b7b7;
+}
+
+.optToggle{
+    display: block;
+}
+
+#delv_type{
+    text-align: left;
+}
+
+#pickup{
+    clear:both;
+}
+
+#cancel, #pickup{
+    display:none;
+}
+
+#cancel, #cancel1{
+    padding:0;
+    margin:0;
+    border-radius:50px;
+    float: right;
+}
+
+/* delivery/pickup address, date and time */
+#Daddress h5, #Paddress h5{
+    clear: both;
+}
+
+.cart, #Daddress, #Paddress{
+    display:none ;
+}
+
+#Daddress{
+    clear:both;
+}
+
+#Dadd, #phone, #fname, #lname, #rname, #pAdd{
+    width:70vw;
+    padding:14px;
+    border-radius:30px;
+    border:none;
+    background:transparent;
+    border: 0.5px solid #585d67;
+-webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+box-shadow: 0 15px 30px rgba(0,0,0,0.1);  
+}
+
+#Dadd, #pAdd, #fname, #lname, #rname{
+    margin-bottom:18px;
+}
+
+#date1, #date2, #time1, #time2,
+.bFormDate, .bFormTime{
+    padding:12px;
+    border-radius:30px;
+    border:none;
+    background:transparent;
+    border: 0.5px solid #585d67;
+    width:128px;
+}
+
+.checked{
+    font-size:12px;
+    color:#b7b7b7;
+}
+
+/* checkout button, all_items submit and "cancel order" buttons */
+#btn_checkout, #btn_submit, #btn_cancel, .reservationBtn, .sendBtn, .subBtn, .specifyBtn{
+    text-align:center;
+    border-radius:30px;
+    width:70vw;
+    background:coral;
+    color:#eee;
+-webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+box-shadow: 0 15px 30px rgba(0,0,0,0.2);  
+}
+
+#btn_submit{
+    background: #eee;
+    color: coral;
+    border-bottom: 1px solid coral;
+}
+
+#btn_submit:hover{
+    background:yellowgreen;
+    color:#eee;
+    border-bottom: 1px solid #eee;
+}
+
+#btn_checkout, #btn_cancel{
+    text-align:center;
+}
+
+#btn_checkout{
+    margin-bottom: 20px;
+}
+
+#btn_checkout:hover, #btn_cancel:hover{
+    background:orangered;
+    color:#eee;
+}
+
+.select{
+float:right; /* may remove this */
+}
+
+.hr{
+    border: 0.2px solid #26292e;
+}
+
+.tinyHr{ /* part of darkmode */
+   border: 0.2px solid #585d67; 
+}
+
+.boldHr{ /* part of darkmode */
+      border:1px solid #585d67;
+}
+
+/* items container styling and more... */
+.all_items_container{
+    display: none;
+}
+
+.all_items{
+    background:#eee;
+    border-radius:10px;
+    padding:10px; 
+-webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+box-shadow: 0 15px 30px rgba(0,0,0,0.3);  
+}
+
+.all_items_toggle{ /* part of darkmode */
+  background:#26292e;      
+  color:#eee;
+}
+
+.each_item{
+    margin:12px;
+}
+
+.list, .list1{
+    display:inline-block ;
+}
+
+.itemsImg{
+width:100px;
+height:100px;
+    border-radius:50%;
+    background:#585d67;
+    padding:4px;
+    float:left ;
+}
+
+.title{
+    margin:10px;
+    font-weight:bold;
+}
+
+.food1, .food2, .food3, .food4, .food5, .food6, .food7, .food8, .food9, .food10, 
+.food11, .food12, .food13, .food14, .food15, .food16, .food17, .food18{
+    border: 0.5px solid #585d67;
+    color:coral;
+    border-radius:10px;
+    margin-top:10px;
+    margin-bottom:0;
+    padding:14px;
+-webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+box-shadow: 0 15px 30px rgba(0,0,0,0.2);  
+}
+
+/* items visible in my cart page after selections */
+.clear1, .clear2, .clear3, .clearCFPsoup1, .clearCFPsoup2, .clearCFPsoup3, .clearRw1, .clearRw2, .clearRw3, .clearFJ1, .clearFJ2, .clearFJ3, .clearVS1, .clearVS2, .clearVS3, .clearCC1, .clearCC2, .clearCC3,.clearGF1, .clearGF2, .clearGF3, .clearBS1, .clearBS2, .clearBS3, .clearWB1, .clearWB2, .clearWB3, .clearBK1, .clearBK2, .clearBK3, .clearFS1, .clearFS2, .clearFS3, .clearDFC1, .clearDFC2, .clearDFC3,.clearSC1, .clearSC2, .clearSC3, .clearSW1, .clearSW2, .clearSW3, .clearBCC1, .clearBCC2, .clearBCC3, .clearIce1, .clearIce2, .clearIce3, .clearDE1, .clearDE2, .clearDE3, .clearFP1, .clearFP2, .clearFP3{
+    background:transparent;
+    width:40px;
+    height:40px;
+    border-radius:50px;
+    position:relative;
+    border:none;
+-webkit-box-shadow: 0 15px 30x rgba(0,0,0,0.3);
+box-shadow: 0 15px 30px rgba(0,0,0,0.3);  
+    float:right;
+}
+
+#trash{
+    color:#585d67;
+}
+
+#productAlign{
+    display:inline-block ;
+    font-size:18px;
+    color:#b7b7b7;
+}
+
+#plus{
+    color:coral;
+    float:right;
+    
+}
+
+#pluss{
+   color:coral;
+    float:right; 
+}
+
+.figure{
+    font-size:20px;
+}
+
+/* invoice/payment page styling */
+.invoicePage{
+    width:100vw;
+    height:100vh;
+    top:0;
+    margin:0; 
+    padding:0;
+    left:0;
+    position:fixed ;
+    background:#26292e;
+    display:none;
+    color:#eee;
+    font-weight:bold;
+    z-index:999;
+}
+
+.invLabel, #invoice{
+    font-size:22px;
+}
+
+.bank{
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* different forms' submit buttons */
+.reservationBtn, .sendBtn, .subBtn, .specifyBtn{
+background:#26292e;
+margin-top:30px;
+border-top:1px solid #585d67;   
+border-left:1px solid #585d67;   
+border-right:1px solid #585d67;    
+}
+
+.reservationBtn:hover, .sendBtn:hover, .subBtn:hover, .specifyBtn:hover{
+background:coral;
+border:none;
+}
+
+/* footer/bottom navs */
+footer{
+    display: none;
+}
+
+.bottom_nav{
+    text-align: center;
+    padding-top:120px;
+}
+
+.b_nav{
+    width:100%;
+   text-align:center ;
+    bottom:0;
+   position:fixed ;
+    margin:0;
+   padding:0;
+   background:#fff;
+   border-radius:30px 30px 0px 0px; 
+   height:54px;
+-webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+box-shadow: 0 15px 30px rgba(0,0,0,0.3);  
+}
+
+.b_navToggle{ /* part of darkmode */
+     background:#26292e;    
+     border: 0.5px solid #585d67;
+     color:#eee;
+}
+
+.nav_b1, .nav_b2, .nav_b3{
+    display:inline-block ;
+   cursor: pointer;
+     width:42%;
+    text-align:center ;
+    padding:14px;
+     color:#333;
+}
+
+.nav_b2{
+width:12%;
+bottom: 0;
+left: 42vw;
+position: absolute;
+border-radius:50%;
+    background: #fff;
+    text-align: center;
+}
+
+#count{
+    font-size:9.5px;
+    font-weight:bold;
+    position:absolute;  
+    background:coral;
+    border-radius:50px;
+    padding:3px;
+    width:11px;
+    height:11px;
+    bottom:31px;
+    color:#fff;
+}
+
+.totopToggle{
+     background:#26292e;     
+     border-top: 0.5px solid #585d67;
+     color:#eee;
+}
+
+.ofColor{ /*part of darkmode */
+    color:#eee;
+}
+
+footer ul li a:hover{
+    color:coral;
+}
+
+#faIcon{
+    padding:16px;
+    border-radius:50px;
+    
+}
+
+/* 756px screen */
+@media (max-width:756px){
+    
+    .subContent2 h1{
+    font-size: 3rem;
+    }
+    
+    .menu-bar{
+        display: block;
+        top:0;
+        left: 20px;
+        position: absolute;
+        font-size: 45px;
+        border-radius:10px;
+        padding: 10px 14px 10px 14px;
+        z-index: 999;
+}
+
+.menu{
+    width: 65vw;
+    z-index: 9999;
+}
+
+#menuTop{
+    background: #26292e;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    color: #eee;
+    display: block;
+}
+
+.menu ul{
+    display: none;
+    width: 65vw;
+    height: 100vh;
+    background: coral;
+    z-index: 1000;
+    left: 0;
+    position: fixed;
+}
+
+.menu ul li{
+    display: block;
+    text-align: left;
+    padding-top: 14px;
+    padding-bottom:14px;
+    float: none;
+}
+
+.menu ul li a{
+    color: #eee;
+}
+
+.menu ul li:hover{
+    background: #26292e;
+}
+
+.menu:hover ul{
+    display: block;
+}
+
+.logo{
+    margin: 0;
+    width: 100vw;
+    background: #eee;
+    top:0;
+    left: 0;
+    padding-top: 30px;
+    padding-bottom:35px;
+    text-align: center;
+}
+
+.logo_bg{
+    display: block;
+    background: #26292e;
+}
+
+.about{
+    margin-top: 18px;
+    margin-right: 0;
+}
+
+#dev{
+    text-align: center;
+    font-size: 12px;
+    display:block;
+    position:absolute;
+    bottom: 0;
+    right:0;
+    left: 0;
+    padding-bottom:30px;
+    text-align:center;
+background:-webkit-linear-gradient(top, coral, #26292e);
+background:-moz-linear-gradient(top, coral, #26292e);
+}
+
+}
+
+/* 420px screen */
+@media (max-width:420px){
+    
+/* header and navs */   
+.darkmode{
+right:20px;
+}
+
+.topNav, .topNav2, .topNav3, .topNav4, .topNav5, .topNav6, .topNav7, .topNav8{
+    margin-left:20px;
+}
+
+/*homePage styling*/
+.homePage{
+    clear:both;
+    margin:0;
+    text-align:center;
+    width:100vw;
+    margin-top:75px;
+    height: 100vh;
+    position: fixed;
+}
+
+.topContainer{
+    margin-bottom:20px;
+    width:100vw;
+}
+
+.content1{
+    display:block;
+    height:68vh;
+} 
+
+.content1{
+    width:100vw;
+    background: url("https://eseodiase.github.io/NourishMe/images/NourishMe.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.subContent1{
+    width:100vw;
+}
+
+.subContent1 h1{
+    font-size:2rem;
+    text-align: center;
+    margin: 0 20px 0px 20px;
+    display: block;
+}
+
+.subContent1 p{
+    padding-top: 53.2vh;
+    text-align: left;
+    margin: 0 20px 0px 20px;
+    display: block;
+}
+
+.homeItems{
+    display :none;
+}
+
+.content2{
+    width:100vw;
+    height: 8vh;
+    background: none;
+}
+
+.content2 span{
+    width:120px;
+    padding:16px;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.content2 .orderNow{
+    margin-top: 10px;
+}
+
+.subContent2 h1, .subContent2 p{
+    display: none;
+}
+
+.box1{
+    width:100vw;
+}
+
+.box2{
+    width:100vw;
+}
+
+.box3{
+    width:100vw; 
+}
+
+.box1, .box2{
+    display:none;
+}
+
+.box3{
+    display: block;
+}
+
+.fa{
+    cursor: pointer;
+}
+
+.menu-bar{
+        display: block;
+        top:0;
+        left: 20px;
+        position: absolute;
+        font-size: 45px;
+        border-radius:10px;
+        padding: 10px 14px 10px 14px;
+        z-index: 999;
+}
+
+.menu{
+    width: 65vw;
+    z-index: 9999;
+}
+
+#menuTop{
+    display: block;
+    font-weight: bold;
+}
+
+.menu ul{
+    display: none;
+    width: 65vw;
+    height: 100vh;
+    background: coral;
+    z-index: 1000;
+    left: 0;
+    position: fixed;
+}
+
+.menu ul li{
+    display: block;
+    text-align: left;
+    padding-top: 14px;
+    padding-bottom:14px;
+    float: none;
+}
+
+.menu ul li a{
+    color: #eee;
+}
+
+.menu ul li:hover{
+    background: #26292e;
+}
+
+.menu:hover ul{
+    display: block;
+}
+
+.menu ul li i{
+    display: inline-block;
+    margin-right: 14px;
+    color: #eee;
+}
+
+.about{ /* part of menu ul li */
+    margin-right: 0;
+}
+
+.setting{ /* part of menu ul li */
+    margin-right: 0; 
+}
+
+.logo{
+    margin: 0;
+    width: 100vw;
+    background: #eee;
+    top:0;
+    left: 0;
+    padding-top: 30px;
+    padding-bottom:35px;
+    text-align: center;
+}
+
+.logo_bg{
+    display: block;
+    background: #26292e;
+}
+
+form{
+    margin:20px;
+}
+
+.bFormInput, .bFormTxtArea, .cFormTxtArea{
+    width:78vw;
+}
+
+/*aboutPage styling*/
+article{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+}
