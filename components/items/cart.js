@@ -207,7 +207,8 @@ const cart =()=>{
        </button> 
        <br />
        <br />
-       <button id="btn_cancel">Cancel Order
+       <button type="button" id="btn_cancel" onclick="window.location.reload(true);">
+       Cancel Order
        </button> 
        </div> 
   <!--the invoice page ending-->    
