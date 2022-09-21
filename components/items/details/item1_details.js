@@ -42,7 +42,7 @@ Take Away
         <span class="priceList">   
         
         <li> 
-        <button type="button" name="Jollof Rice_1pack" id="price1" class="price" value="$7.00">$13.00
+        <button type="button" name="Jollof Rice_1pack" id="price1" class="price" value="$7.00">$7.00
  <i class="fa fa-cart-plus" id="pluss">1</i>    
         </button>
         </li>
