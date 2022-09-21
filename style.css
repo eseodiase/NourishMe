@@ -10,9 +10,6 @@ body {
     background:#eee;
     color: #26292e;
     font-family: 'Work Sans', sans-serif;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
 }
 
 /* darkmode colors and the classLists used in JS*/
