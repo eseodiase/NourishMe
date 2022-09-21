@@ -33,7 +33,49 @@ const cart =()=>{
             </div>
             <br/><br/>   
             <hr class="hr">
-    <!-- the selected items space ending-->        
+    <!-- the selected items space ending-->    
+    
+    <!-- the selected items sent to admin-->    
+    <div class="sent_items">
+    <input type="hidden" name="Fried Rice with Chicken Packs" class="item1Holder"/>
+    
+    <input type="hidden" name="Cartfish Pepper Soup Packs" class="item2Holder"/>
+    
+    <input type="hidden" name="Red Wine Packs" class="item3Holder"/>
+    
+    <input type="hidden" name="Orange Fruit Juice Packs" class="item4Holder"/>
+    
+   <input type="hidden" name="Vegetable Soup with Beef Packs" class="item5Holder"/>
+   
+   <input type="hidden" name="Chocolate Cake Packs" class="item6Holder"/>
+   
+   <input type="hidden" name="Grilled Fish with Cheeps Packs" class="item7Holder"/>
+    
+   <input type="hidden" name="Suya Packs" class="item8Holder"/>
+    
+   <input type="hidden" name="Wheat Balls Packs" class="item9Holder"/>
+   
+   <input type="hidden" name="Beef Kebab Packs" class="item10Holder"/>
+   
+   <input type="hidden" name="Fruit Salad Packs" class="item11Holder"/>
+    
+   <input type="hidden" name="Deep Fried Chicken Packs" class="item12Holder"/>
+    
+   <input type="hidden" name="Small Chops Packs" class="item13Holder"/>
+   
+   <input type="hidden" name="Sparkling Water Packs" class="item14Holder"/>
+   
+   <input type="hidden" name="Barbecue Chicken with Cheeps Packs" class="item15Holder"/>
+    
+   <input type="hidden" name="Vanilla Ice Cream Packs" class="item16Holder"/>
+    
+   <input type="hidden" name="Devilled Egg Packs" class="item17Holder"/>
+   
+   <input type="hidden" name="Fried Plantain with Egg Sauce Packs" class="item18Holder"/>
+    </div>
+    <!-- the selected items sent... ending-->    
+    
+    
 <!--the vat, delivery/pickup and total sections--> 
             <section class="checkout">
             
@@ -75,7 +117,7 @@ const cart =()=>{
         <span class="cal">
         <strong>Total </strong>
         </span>
-        <input type="number" name="outview" placeholder="0.00" id="cal" readonly/>
+        <input type="number" name="Total_Amount" placeholder="0.00" id="cal" readonly/>
         </div>   
     </section>
     <!-- the total output section ending-->       
@@ -187,9 +229,9 @@ const cart =()=>{
   </button> 
   
   <!-- invoice number, admin only -->    
-  <section class="ofInvoice">
+  <div class="ofInvoice">
     <input type="hidden" name="Invoice/Order Number" id="invoice" readonly/>
-  </section>
+  </div>
   <!-- invoice number, admin only, the end -->   
   
   <!--the invoice/payment page -->    
@@ -207,7 +249,7 @@ const cart =()=>{
        </button> 
        <br />
        <br />
-       <button type="button" id="btn_cancel" onclick="window.location.reload(true);">
+       <button type="button" id="btn_cancel" onclick="window.location.reload(true)  ;">
        Cancel Order
        </button> 
        </div> 
