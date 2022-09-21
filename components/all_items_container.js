@@ -1,7 +1,6 @@
 const all_items_container =()=>{
     return `<section class="all_items_container">
-   <form method="POST" 
-        action="#" 
+   <form action="https://formspree.io/reacheseodiase@gmail.com" method="POST" role="form" class="php-email-form mt-4"
         name="order" 
         class="itemsContainer">
         
