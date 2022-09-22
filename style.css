@@ -178,7 +178,7 @@ box-shadow: 0 15px 30px rgba(0,0,0,0.2);
 
 .content2{
     width:67vw;
-    background: url("https://eseodiase.github.io/NourishMe/images/NourishMe.png") no-repeat;
+    background: url("images/NourishMe.png") no-repeat;
     background-position: center bottom;
     background-size: cover;
     background-clip: content-box;
@@ -1227,7 +1227,7 @@ right:20px;
 
 .content1{
     width:100vw;
-    background: url("https://eseodiase.github.io/NourishMe/images/NourishMe.png") no-repeat;
+    background: url("images/NourishMe.png") no-repeat;
     background-position: center;
     background-size: cover;
 }
