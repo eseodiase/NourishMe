@@ -4,7 +4,7 @@ const item13 =()=>{
         
         <li class="list">
         <p class="title">
- <img src="https://eseodiase.github.io/NourishMe/components/items/images/small_chops.png" alt="Small Chops" class="itemsImg"/>
+ <img src="images/small_chops.png" alt="Small Chops" class="itemsImg"/>
         Small Chops 
         <br />
         <span class="miniTxt">
