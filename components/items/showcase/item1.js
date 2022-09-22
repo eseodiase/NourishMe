@@ -4,7 +4,7 @@ const item1 =()=>{
         
         <li class="list">
         <p class="title">
-        <img src="images/fried_rice.png" alt="fried_rice" class= "itemsImg"/>
+        <img src="showcase_images/fried_rice.png" alt="fried_rice" class= "itemsImg"/>
          Fried Rice<br />
          <span class="miniTxt">
          With Chicken    
