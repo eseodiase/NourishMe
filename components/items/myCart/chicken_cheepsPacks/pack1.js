@@ -4,7 +4,7 @@ const c_cheeps1 =()=>{
 <i class="fa fa-trash" id="trash"></i>
 </button>
 
-<img src="https://eseodiase.github.io/NourishMe/components/items/images/barbecue_chicken.png" 
+<img src="images/barbecue_chicken.png" 
 id="productAlign" alt="food15" class="itemsImg"/>
 
 <p class ="title" id="productAlign">
