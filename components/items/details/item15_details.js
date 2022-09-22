@@ -5,7 +5,7 @@ const details15 =()=>{
   </span>
   
          <h4>Barbecue Chicken Eith Cheeps</h4>
-<img src="https://eseodiase.github.io/NourishMe/components/items/images/barbecue_chicken.png"  class="fullImg" alt="Barbecue Chicken With Cheeps"/>
+<img src="images/barbecue_chicken.png"  class="fullImg" alt="Barbecue Chicken With Cheeps"/>
 <br />
 
 <p class="dP">
