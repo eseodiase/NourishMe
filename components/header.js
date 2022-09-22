@@ -47,15 +47,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuerefus. Ce 
             </p>
                  
        <div class="homeItems">
-      <img src="https://eseodiase.github.io/NourishMe/images/salad.png" width="100%" height="100%" alt="Salad" />           
+      <img src="images/salad.png" width="100%" height="100%" alt="Salad" />           
         </div>
                  
         <div class="homeItems">
-      <img src="https://eseodiase.github.io/NourishMe/images/burger.png" width="100%" height="100%" alt="Burger" />           
+      <img src="images/burger.png" width="100%" height="100%" alt="Burger" />           
         </div>
                  
         <div class="homeItems">
-      <img src="https://eseodiase.github.io/NourishMe/images/chicken.png" width="100%" height="100%" alt="Chicken" />           
+      <img src="images/chicken.png" width="100%" height="100%" alt="Chicken" />           
         </div>
                            
             </div>
