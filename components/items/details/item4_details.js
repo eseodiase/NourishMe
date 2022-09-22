@@ -5,7 +5,7 @@ const details4 =()=>{
   </span>
   
          <h4> Orange Fruit Juice</h4>
-<img src="https://eseodiase.github.io/NourishMe/components/items/images/orangeJuice.png" class="fullImg" alt="Orange Fruit Juice"/>
+<img src="images/orangeJuice.png" class="fullImg" alt="Orange Fruit Juice"/>
 <br />
 
 <p class="dP">
