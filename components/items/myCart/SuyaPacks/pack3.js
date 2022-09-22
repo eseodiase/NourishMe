@@ -4,7 +4,7 @@ const suya3 =()=>{
 <i class="fa fa-trash" id="trash"></i>
 </button>
 
-<img src="https://eseodiase.github.io/NourishMe/components/items/images/beefSuya.png" id="productAlign" alt="food8" class="itemsImg"/>
+<img src="images/beefSuya.png" id="productAlign" alt="food8" class="itemsImg"/>
 
 <p class ="title" id="productAlign">
 Beef Suya 
