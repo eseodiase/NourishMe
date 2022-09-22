@@ -1,7 +1,7 @@
 const about =()=>{
    return `<section class="aboutJs">
 <div class="aboutArticle">
-<img src="https://eseodiase.github.io/NourishMe/components/items/images/About_NourishMe.jpg" 
+<img src="images/About_NourishMe.jpg" 
 alt="About NourishMe" class="aboutUsImg" 
 width="100%" height="300px"/>
 <article>
