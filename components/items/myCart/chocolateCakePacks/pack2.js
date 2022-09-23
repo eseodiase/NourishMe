@@ -4,7 +4,7 @@ const chocolateCake2 =()=>{
 <i class="fa fa-trash" id="trash"></i>
 </button>
 
-<img src="https://eseodiase.github.io/NourishMe/components/items/images/chocolate_cake.png"
+<img src="images/chocolate_cake.png"
 id="productAlign" alt="food6" class="itemsImg"/>
 
 <p class ="title" id="productAlign">
