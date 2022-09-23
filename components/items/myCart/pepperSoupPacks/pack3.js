@@ -3,7 +3,7 @@ const CatfishPack3 =()=>{
     <button type="button" class="clearCFPsoup3">
     <i class="fa fa-trash" id="trash"></i>
     </button>
-<img src="https://eseodiase.github.io/NourishMe/components/items/images/fish_soup.png" id="productAlign" alt="food2" class="itemsImg"/>
+<img src="images/fish_soup.png" id="productAlign" alt="food2" class="itemsImg"/>
 
 <p class ="title" id="productAlign">
 Pepper Soup
