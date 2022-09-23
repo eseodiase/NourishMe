@@ -4,7 +4,7 @@ const vanilla3 =()=>{
 <i class="fa fa-trash" id="trash"></i>
 </button>
 
-<img src="https://eseodiase.github.io/NourishMe/components/items/images/vanilla_iceCream.png"
+<img src="images/vanilla_iceCream.png"
 id="productAlign" alt="food16" class="itemsImg"/>
 
 <p class ="title" id="productAlign">
