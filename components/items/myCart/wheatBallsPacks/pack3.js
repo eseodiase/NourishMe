@@ -4,7 +4,7 @@ const wheat3 =()=>{
 <i class="fa fa-trash" id="trash"></i>
 </button>
 
-<img src="https://eseodiase.github.io/NourishMe/components/items/images/wheat.png" id="productAlign" alt="food9" class="itemsImg"/>
+<img src="images/wheat.png" id="productAlign" alt="food9" class="itemsImg"/>
 
 <p class ="title" id="productAlign">
 Wheat Balls
