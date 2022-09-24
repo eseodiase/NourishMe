@@ -65,7 +65,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuerefus. Ce 
             <div class="subContent2">
             <h1> RICH & TASTY </h1>
             <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posu refus. Ce finibus aliquam purus id malesuada.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuref us. Ce finibus aliquam purus id malesuada.
             </p>
             <button type="button" class="orderNow">
             Order Now
