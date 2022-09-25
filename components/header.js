@@ -30,7 +30,7 @@ Restaurant Theme
 <li id="dev">
 <img src="https://eseodiase.github.io/new-ese-portfolio/images/avatar.png" alt="Developer" width="50" height="50" style="border-radius:50%; background:#26292e;"/> <br/>
 Developed by
-<a href="#" class="ofLink">Ese Odiase</a>
+<a href="http://www.eseodiase.website/" class="ofLink">Ese Odiase</a>
 </li>
 </ul>
 </div>
