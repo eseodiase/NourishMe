@@ -28,7 +28,7 @@ Restaurant Theme
 </li>
 
 <li id="dev">
-<img src="https://ipfs.fleek.co/ipfs/bafybeiansltfu2wrrorxdywurnpugc2kup6bycyuulurz7vc5avdibjqbu" alt="Developer" width="50" height="50" style="border-radius:50%; background:#26292e;"/> <br/>
+<img src="https://ipfs.fleek.co/ipfs/bafybeiduikxoxgjejuihp2jyzdgjtu5ywepzygeld5io4og6nc3v4cpic4" alt="Developer" width="50" height="50" style="border-radius:50%; background:#26292e;"/> <br/>
 Developed by
 <a href="http://www.eseodiase.website/" class="ofLink">Ese Odiase</a>
 </li>
