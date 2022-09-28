@@ -1,6 +1,6 @@
 APPLICATION NAME: NourishMe,
 
-BUILT WITH: HTML5, CSS3 and JavaScript,
+BUILT WITH: HTML, CSS and JavaScript,
 
 SCRIPT TYPE: module,
 
