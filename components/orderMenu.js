@@ -1,18 +1,1 @@
-const orderMenu =()=>{
-    return `<section class="menuJs">
-    <div class="menuList">
-        <ul>
- <li class="appetizersBtn">Appetizers</li>
- <li class="barbecuesBtn">Barbecues</li>
- <li class="dessertsBtn">Desserts</li>
-        </ul>
-        
-        <ul>
-  <li class="drinksBtn">Drinks</li>  
-  <li class="friesBtn">Fries</li>     
-  <li class="soupBtn">Soup/Accompanies</li>  
-        </ul>
-    </div>
-</section>`;
-}
-export default orderMenu;
+function _0x15e9(){const _0x48b5c0=['11aZXkSf','1130421QfksKC','1078070fMKzPt','6PUYoWW','2hWRIhD','2331360UavTsg','1675865mDygAc','674937vHxgGw','1004472yWYFTV','7ihcBop','296776nAAGcg'];_0x15e9=function(){return _0x48b5c0;};return _0x15e9();}(function(_0x97e985,_0x11b809){const _0x502c19=_0x27ba,_0x108941=_0x97e985();while(!![]){try{const _0x39995b=-parseInt(_0x502c19(0x150))/0x1*(parseInt(_0x502c19(0x156))/0x2)+parseInt(_0x502c19(0x158))/0x3+parseInt(_0x502c19(0x154))/0x4+-parseInt(_0x502c19(0x152))/0x5*(-parseInt(_0x502c19(0x14f))/0x6)+-parseInt(_0x502c19(0x155))/0x7*(parseInt(_0x502c19(0x151))/0x8)+-parseInt(_0x502c19(0x153))/0x9+-parseInt(_0x502c19(0x14e))/0xa*(parseInt(_0x502c19(0x157))/0xb);if(_0x39995b===_0x11b809)break;else _0x108941['push'](_0x108941['shift']());}catch(_0x2745a8){_0x108941['push'](_0x108941['shift']());}}}(_0x15e9,0x2ee66));function _0x27ba(_0x43294b,_0xf7541e){const _0x15e910=_0x15e9();return _0x27ba=function(_0x27ba3f,_0x157770){_0x27ba3f=_0x27ba3f-0x14e;let _0x203901=_0x15e910[_0x27ba3f];return _0x203901;},_0x27ba(_0x43294b,_0xf7541e);}const orderMenu=()=>{return'<section\x20class=\x22menuJs\x22>\x0a\x20\x20\x20\x20<div\x20class=\x22menuList\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<ul>\x0a\x20<li\x20class=\x22appetizersBtn\x22>Appetizers</li>\x0a\x20<li\x20class=\x22barbecuesBtn\x22>Barbecues</li>\x0a\x20<li\x20class=\x22dessertsBtn\x22>Desserts</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<ul>\x0a\x20\x20<li\x20class=\x22drinksBtn\x22>Drinks</li>\x20\x20\x0a\x20\x20<li\x20class=\x22friesBtn\x22>Fries</li>\x20\x20\x20\x20\x20\x0a\x20\x20<li\x20class=\x22soupBtn\x22>Soup/Accompanies</li>\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20</ul>\x0a\x20\x20\x20\x20</div>\x0a</section>';};export default orderMenu;
