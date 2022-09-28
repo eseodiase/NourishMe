@@ -8,7 +8,7 @@ DESCRIPTION: NourishMe is a static restaurant website theme consisting of variou
 
 Pages are accessed with speed and there is absolutely no waiting or wasting time on loading any of the pages. This was achieved by manipulating DOM, then resulting to a single page JavaScript application.
 
-EXAMPLE: to go from 'home page' to 'about page' or other pages of the the application, users do not need to observe page loading or reload just like React JS applications.
+EXAMPLE: to go from 'home page' to 'about page' or other pages of the application, users do not need to observe page loading or reload just like React JS applications.
 
 APPLICATION FEATURES:
 1. Products display
