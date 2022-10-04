@@ -12,31 +12,33 @@ EXAMPLE: to go from 'home page' to 'about page' or other pages of the applicatio
 
 APPLICATION FEATURES:
 
-Products display
+•Products display.
 
-Categories and subcategories
+•Categories and subcategories.
 
-Product details
+•Product details.
 
-Price list
+•Price list.
 
-Add items to cart for real
+•Add items to cart for real.
 
-Easily delete/remove unwanted items from cart
+•Easily delete/remove unwanted items 
+from cart.
 
-A working item counter
+•A working item counter.
 
-Easy to use checkout
+•Easy to use checkout.
 
-Ability to select pickup or delivery
+•Ability to select pickup or delivery.
 
-Vat and total amount handlers
+•Vat and total amount handlers.
 
-Customer order number generator
+•Customer order number generator.
 
-Payment method presentation
+•Payment method presentation.
 
-Ability to view customer actual order details via email. e.t.c
+•Ability to view customer actual order 
+details via email. e.t.c
 
 LICENSE: BSD 2-Clause "Simplified" License,
 
